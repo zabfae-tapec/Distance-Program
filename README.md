@@ -1,7 +1,7 @@
 # Distance-Between-Two-Points-Calculator
 
 ## Description
-Calculates distance between two points
+Calculates distance between two points.
 
 ## How to Run
 1. Open the program file in VS Code, Replit, or Google Colab.
