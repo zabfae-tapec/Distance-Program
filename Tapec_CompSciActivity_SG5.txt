@@ -13,15 +13,15 @@ x2 = float(input("Enter x-coordinate of Point 2: "))
 y2 = float(input("Enter y-coordinate of Point 2: "))
 
 # ----------------------
-# Calculate Distance
+# Calculate the Distance between the two points
 # ----------------------
-# Formula: distance = √[(x₂ - x₁)² + (y₂ - y₁)²]
+# Formula: distance = math.sqrt((x₂ - x₁)² + (y₂ - y₁)²)
 difference_x = x2 - x1       # Difference between x-values
 difference_y = y2 - y1       # Difference between y-values
 distance_squared = math.pow(difference_x, 2) + math.pow(difference_y, 2)
 distance = math.sqrt(distance_squared)
 
 # ----------------------
-# Show Result
+# Show Results
 # ----------------------
 print(f"The distance between the two points is: {distance}")
